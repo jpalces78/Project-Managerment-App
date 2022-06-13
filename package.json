@@ -1,5 +1,5 @@
 {
-  "name": "drizly-clone",
+  "name": "trello-clone",
   "version": "0.0.1",
   "description": "",
   "main": "server.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jpalces78/drizly-clone.git"
+    "url": "https://github.com/jpalces78/trello-clone.git"
   },
   "author": "Joshua Palces",
   "license": "MIT"
