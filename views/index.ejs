@@ -42,30 +42,41 @@
     <header>
         <nav>
             <ul>
-                <li><a href="default.asp">Home</a></li>
-                <li><a href="news.asp">News</a></li>
-                <li><a href="contact.asp">Contact</a></li>
-                <li><a href="about.asp">About</a></li>
+                <li><a href="default.asp">Workspaces</a></li>
+                <li><a href="news.asp">Recent</a></li>
+                <li><a href="contact.asp">Calendar</a></li>
+                <li><a href="about.asp">Create Workspace</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <div id="myDIV" class="header">
-            <h2>My To Do List</h2>
-            <input type="text" id="myInput" placeholder="Title...">
-            <span onclick="newElement()" class="addBtn">Add</span>
-        </div>
-        
-        <ul id="myUL">
-            <li>Hit the gym</li>
-            <li class="checked">Pay bills</li>
-            <li>Meet George</li>
-            <li>Buy eggs</li>
-            <li>Read a book</li>
-            <li>Organize office</li>
-        </ul>        
-    </main>
+    <section id="page">
+        <aside>
+            <nav class="sidebar">
+                <a class="active" href="#home">Home</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+            </nav>
+        </aside>
+        <main>
+            <section id="myDIV" class="header">
+                <h2>My To Do List</h2>
+                <input type="text" id="myInput" placeholder="Title...">
+                <span onclick="newElement()" class="addBtn">Add</span>
+            </section>
+            
+            <ul id="myUL">
+                <li>Hit the gym</li>
+                <li class="checked">Pay bills</li>
+                <li>Meet George</li>
+                <li>Buy eggs</li>
+                <li>Read a book</li>
+                <li>Organize office</li>
+            </ul>        
+        </main>        
+    </section>
+
 
     
 

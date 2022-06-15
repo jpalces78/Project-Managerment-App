@@ -56,7 +56,7 @@ async function addLike(){
 
 //to do list 
 // Create a "close" button and append it to each list item
-var myNodelist = document.getElementsByTagName("LI");
+var myNodelist = document.querySelectorAll("ul#myUL li");
 var i;
 for (i = 0; i < myNodelist.length; i++) {
   var span = document.createElement("SPAN");
